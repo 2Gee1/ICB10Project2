@@ -31,3 +31,11 @@ datasets/
 # 환경 변수 및 보안 설정 파일
 .env
 *.env
+
+# 숨김 파일 및 폴더 전체 제외
+.*
+# 단, 중요한 설정 파일은 예외 처리
+!.gitignore
+!.gitattributes
+!.github/
+

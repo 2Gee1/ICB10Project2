@@ -1,0 +1,33 @@
+# 파이썬 컴파일 및 캐시 파일
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# 가상환경 (.venv 등)
+.venv/
+venv/
+env/
+
+# 개발 도구 및 IDE 설정
+.vscode/
+.idea/
+.DS_Store
+
+# 데이터 및 모델 파일 (대용량 파일 제외)
+data/
+datasets/
+*.csv
+*.xlsx
+*.parquet
+*.json
+*.pkl
+*.joblib
+*.h5
+*.pth
+*.onnx
+
+# 환경 변수 및 보안 설정 파일
+.env
+*.env
